@@ -9,14 +9,14 @@ The R script, `run_analysis.R`, does the following:
   2. Clean up the workspace
   3. Load training data set
   4. Load test data set
-  5. Merge the training and test data sets into all_data
+  5. Merge the training and test data sets into [all_data] data frame
 
 **2. Extract only the measurements on the mean and standard deviation for each measurement**
   1. Load the features data set
   2. Extract the mean and std variables using grep function into the [featuresWanted] integer vector
   3. Create a character vector named [featuresWanted.names] to store the names of the variables in the [featuresWanted] vector
-  4. Subset the all_data dataframe based on variables stored in the [featuresWanted] vector
-  5. Label the variables correctly in the all_data dataframe using the [featuresWanted.names] character vector
+  4. Subset the [all_data] dataframe based on variables stored in the [featuresWanted] vector
+  5. Label the variables correctly in the [all_data] dataframe using the [featuresWanted.names] character vector
 
 **3. Use descriptive activity names to name the activities in the data set**
   1. Load the [activities_labels] data set [activities] dataframe
