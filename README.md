@@ -5,11 +5,11 @@ This is the course project for the Getting and Cleaning Data Coursera course.
 The R script, `run_analysis.R`, does the following:
 
 **1. Merge the training and test sets to create one data set**
-    1.1. Load the plyr library to be able to use the ddply() function
-    1.2. Clean up the workspace
-    1.3. Load training data set
-    1.4. Load test data set
-    1.5. Merge the training and test data sets into all_data
+    1. Load the plyr library to be able to use the ddply() function
+    2. Clean up the workspace
+    3. Load training data set
+    4. Load test data set
+    5. Merge the training and test data sets into all_data
 
 **2. Extract only the measurements on the mean and standard deviation for each measurement**
     2.1. Load the features data set
